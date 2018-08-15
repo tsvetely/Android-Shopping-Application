@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "171249339441",
+    "firebase_url": "https://shoppingapp-76c9d.firebaseio.com",
+    "project_id": "shoppingapp-76c9d",
+    "storage_bucket": "shoppingapp-76c9d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:171249339441:android:b7feedb32c793a21",
+        "android_client_info": {
+          "package_name": "com.getova.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "171249339441-1lnv5ufgse6c9mgitfl2f4ag6j4dv9dh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.getova.app",
+            "certificate_hash": "c5acf259d992fac8d547c0410f3f1978e1c54c4c"
+          }
+        },
+        {
+          "client_id": "171249339441-aqcl80psvhh3m2csorahmldetfn6hiqb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.getova.app",
+            "certificate_hash": "21d100d51c2c496134ce4dd064645a307c74b91b"
+          }
+        },
+        {
+          "client_id": "171249339441-3157ojc1uv6kv4m3f5nqdfdtlg6as332.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-Ggf7L1oq1uD4fey0jAJrZ5h6d9ygbjk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "171249339441-3157ojc1uv6kv4m3f5nqdfdtlg6as332.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

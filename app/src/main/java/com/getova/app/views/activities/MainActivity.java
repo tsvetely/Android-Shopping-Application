@@ -1,4 +1,4 @@
-package com.getova.app.views;
+package com.getova.app.views.activities;
 
 import android.app.Activity;
 import android.os.Bundle;
