@@ -13,22 +13,21 @@
         <TextView
             android:id="@+id/tw_titleText"
             android:layout_width="160dp"
-            android:layout_height="50dp"
+            android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="250dp"
+            android:layout_marginTop="270dp"
             android:text="@string/title_home"
             android:textAlignment="center"
             android:textColor="@color/colorPrimary"
             android:textSize="@dimen/menu_size"
             tools:ignore="SpUsage" />
 
-        <Button
-            android:id="@+id/btn_to_menu"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
-            android:text="@string/btn_menu" />
+        <FrameLayout
+            android:id="@+id/content"
+            android:layout_below="@+id/tw_titleText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
 
     </RelativeLayout>
 

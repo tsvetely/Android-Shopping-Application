@@ -6,10 +6,11 @@ import android.app.Activity;
 import android.widget.Button;
 
 import com.getova.app.R;
+import com.getova.app.views.fragments.HomeFragment;
 
 public class HomeActivity extends Activity {
 
-//    private HomeFragment mHomeFragment;
+    private HomeFragment mHomeFragment;
 //    private Button mButton;
 
     @Override
@@ -17,20 +18,11 @@ public class HomeActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
-//        mHomeFragment = HomeFragment.newInstance();
-//
-//        getFragmentManager()
-//                .beginTransaction()
-//                .replace(R.id.content_home, mHomeFragment)
-//                .commit();
+        mHomeFragment = HomeFragment.newInstance();
 
-        Button mButton = findViewById(R.id.btn_to_menu);
-
-        mButton.setOnClickListener(view -> {
-            Intent intent =
-                    new Intent(this,
-                            MenuActivity.class);
-            startActivity(intent);
-        });
+        getFragmentManager()
+                .beginTransaction()
+                .replace(R.id.content, mHomeFragment)
+                .commit();
     }
 }
