@@ -4,30 +4,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".views.activities.HomeActivity">
+    tools:context=".views.home.HomeActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="@drawable/coffee_cup"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints">
 
-        <TextView
-            android:id="@+id/tw_titleText"
-            android:layout_width="160dp"
-            android:layout_height="wrap_content"
-            android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="270dp"
-            android:text="@string/title_home"
-            android:textAlignment="center"
-            android:textColor="@color/colorPrimary"
-            android:textSize="@dimen/menu_size"
-            tools:ignore="SpUsage" />
+        <FrameLayout
+            android:id="@+id/content_up"
+            android:layout_width="match_parent"
+            android:layout_height="425dp" />
 
         <FrameLayout
             android:id="@+id/content"
-            android:layout_below="@+id/tw_titleText"
+            android:layout_below="@id/content_up"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"/>
 
     </RelativeLayout>
 

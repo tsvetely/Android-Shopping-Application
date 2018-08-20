@@ -6,6 +6,13 @@
     <string name="title_activity_home">Home</string>
     <string name="title_activity_details">Details</string>
     <string name="title_activity_menu">Menu</string>
-    <string name="title_home">Welcome</string>
-    <string name="btn_menu">MENU</string>
+    <string name="title_welcome">Welcome</string>
+    <string name="btn_menu">ORDER NOW</string>
+    <string name="favorites">Favorites</string>
+    <string name="order">Order</string>
+    <string name="title_activity_menu_tab_list">Tab Menu</string>
+    <string name="history">History</string>
+    <string name="details">Details</string>
+    <string name="title_activity_settings">ActivitySettings</string>
+    <string name="title_activity_main">MainActivity</string>
 </resources>

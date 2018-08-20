@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".views.activities.HomeActivity">
+        <activity android:name=".views.home.HomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -17,13 +17,16 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".views.activities.MenuActivity"
-            android:label="@string/title_activity_menu" />
-        <activity
-            android:name=".views.activities.DetailsActivity"
+            android:name=".views.details.DetailsActivity"
             android:label="@string/title_activity_details" />
-        <activity android:name=".views.activities.MyFavoritesListActivity" />
-        <activity android:name=".views.activities.OrderActivity" />
+        <activity android:name=".views.favorites.MyFavoritesListActivity" />
+        <activity android:name=".views.order.OrderActivity" />
+        <activity
+            android:name=".views.menu.MenuTabListActivity"
+            android:label="@string/title_activity_menu_tab_list" />
+        <activity
+            android:name=".views.menu.MainActivity"
+            android:label="@string/title_activity_main" />
     </application>
 
 </manifest>
